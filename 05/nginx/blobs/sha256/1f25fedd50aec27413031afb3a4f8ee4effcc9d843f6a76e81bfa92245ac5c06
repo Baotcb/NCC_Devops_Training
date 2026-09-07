@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "mediaType": "application/vnd.oci.image.manifest.v1+json",
+  "config": {
+    "mediaType": "application/vnd.oci.image.config.v1+json",
+    "digest": "sha256:7bc5ba2f958a043e123135f456af857350673b64eaddcf811698239f3a53d6e6",
+    "size": 12322
+  },
+  "layers": [
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:55afa1ecc21d2bb5e5045f32dafee56272ffd89860bac26f6c32123439af26a4",
+      "size": 3846391
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:d94291c262619626bc7a27b61b090d85365e85c61f92ca49b190a26930121299",
+      "size": 1902283
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:0ea93572787841bba2f3921ece8dc2db925c22232a1388c766881ebe3bd3f67d",
+      "size": 628
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:1ed8e39a7434c8975957bb78530f191c92eecbd9c7309966192ba276a7c0ac61",
+      "size": 955
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:0d62d88506ba127db40e7c137e3a2dcf65e563709676828820b8c82277a6caeb",
+      "size": 404
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:8cdfe4f237782ae36780c4634b1457e8d6efa6f929fc3e46b0a2074ba54acd56",
+      "size": 1210
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:da4dea1b00afb53e163ae330a511ecd6978371d99794c80f439b83b609eb9d66",
+      "size": 1397
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:fb597529c91648bab2279939e01b745210875081852c73000aed882c000ff5de",
+      "size": 20500627
+    }
+  ],
+  "annotations": {
+    "com.docker.official-images.bashbrew.arch": "amd64",
+    "org.opencontainers.image.base.digest": "sha256:4bfe6239cfb9731ab9b886c18873fa2abe97c1262f3af247013e9ed52424d126",
+    "org.opencontainers.image.base.name": "nginx:1.31.4-alpine-slim",
+    "org.opencontainers.image.created": "2026-08-19T20:10:31Z",
+    "org.opencontainers.image.revision": "b8590bd36b4504b9b847fcf2e98a9111dcae85fa",
+    "org.opencontainers.image.source": "https://github.com/nginx/docker-nginx.git#b8590bd36b4504b9b847fcf2e98a9111dcae85fa:mainline/alpine",
+    "org.opencontainers.image.url": "https://hub.docker.com/_/nginx",
+    "org.opencontainers.image.version": "1.31.4-alpine"
+  }
+}
