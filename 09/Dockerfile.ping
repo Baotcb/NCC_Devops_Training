@@ -1,0 +1,3 @@
+FROM alpine:latest
+RUN apk add --no-cache curl
+CMD sh -c 'while true; do echo -n "Log: Nhan duoc -> "; curl -s http://pong:8080 || echo "Loi ket noi"; sleep 5; done'
