@@ -1,0 +1,10 @@
+services:
+  node_app:
+    image: node
+    environment:
+      - APP_ENV=${APP_ENV}
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+    command: env
+    ports:
+      - "3001:80"
